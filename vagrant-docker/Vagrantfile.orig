@@ -19,7 +19,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # Define the location of the Vagrantfile for the host VM
     # Comment out this line to use default host VM that is
     # based on boot2docker
-    # docker.vagrant_vagrantfile = "host/Vagrantfile"
+    docker.vagrant_vagrantfile = "host/Vagrantfile"
 
     # Specify the Docker image to use
     docker.image = "nginx"
